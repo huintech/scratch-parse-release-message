@@ -9,7 +9,7 @@
 
 const parseMessage = require('../index');
 
-const SUPPORTED_LANGUAGE = ['en', 'zh-cn'];
+const SUPPORTED_LANGUAGE = ['en', 'ko', 'zh-cn'];
 
 const parseArgs = () => {
     const scriptArgs = process.argv.slice(2);

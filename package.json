@@ -1,7 +1,7 @@
 {
-  "name": "openblock-parse-release-message",
+  "name": "scratch-parse-release-message",
   "version": "0.0.4",
-  "description": "Recive markdown message info and out put a object",
+  "description": "Receive markdown message info and out put a object",
   "bin": {
     "rmsg-check": "./bin/check-message.js"
   },
@@ -13,7 +13,7 @@
     "test:check": "node ./bin/check-message.js",
     "build": "tsc --build"
   },
-  "author": "ArthurZheng",
+  "author": "coconut",
   "license": "MIT",
   "dependencies": {
     "node-html-markdown": "^1.1.3"
