@@ -1,6 +1,6 @@
 {
-  "name": "scratch-parse-release-message",
-  "version": "0.0.4",
+  "name": "@huintech/scratch-parse-release-message",
+  "version": "0.8.0",
   "description": "Receive markdown message info and out put a object",
   "bin": {
     "rmsg-check": "./bin/check-message.js"
@@ -15,6 +15,13 @@
   },
   "author": "coconut",
   "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/huintech/scratch-parse-release-message.git"
+    },
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com/"
+    },
   "dependencies": {
     "node-html-markdown": "^1.1.3"
   },
